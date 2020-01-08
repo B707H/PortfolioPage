@@ -54,11 +54,17 @@ $(document).ready(function() {
 		}
 
 	});
-	
+
 
 	$(function() {
   		$(".scroll-downs").delay(4000).fadeIn();
 	});
 
+	$(window).bind('scroll', function() {
+	     if ($(window).scrollTop() > 100) {
+	         $('.scroll-downs').fadeOut();
+	     }
+
+	});
 
 });
