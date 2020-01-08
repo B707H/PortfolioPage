@@ -6,10 +6,10 @@ $(document).ready(function() {
 	});
 
 	var typed = new Typed(".typed", {
-		strings: ["Junior Software Engineer.", "Back-end Developer.", "Lifelong learner."],
+		strings: ["Junior Software Engineer.", "Back-end Developer.", "Lifelong Learner."],
 		typeSpeed: 70,
 		loop: true,
-		startDelay: 1000,
+		startDelay: 1100,
 		showCursor: false
 	});
 
