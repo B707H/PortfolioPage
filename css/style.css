@@ -70,6 +70,7 @@ body {
 
 .section {
 	padding: 100px 0;
+	background-color:  #f7f7f7;
 }
 
 .aboutImage {
@@ -91,7 +92,23 @@ body {
 	border-radius: 10px;
 	box-shadow: 7px 7px 2px grey;
 	opacity: 0.93;
-	display: block;
-  	margin-left: auto;
-  	margin-right: auto;
+}
+
+.skill {
+	text-align: center;
+}
+
+.chart {
+	position: relative;
+	width: 152px;
+	height: 152px;
+	display: inline-block;
+	margin-left: 25px;
+	text-align: center;
+}
+
+.chart canvas {
+	position: absolute;
+	left: 0;
+	top: 0;
 }
