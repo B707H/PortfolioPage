@@ -33,7 +33,9 @@ $(document).ready(function() {
 	})
 
 	
-	/* var skillsTopOffset = $(".skillsSection").offset().top;
+	/* SCRIPT FOR SKILL SECTION
+
+	var skillsTopOffset = $(".skillsSection").offset().top;
 	
 	$(window).scroll(function() {
 
