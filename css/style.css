@@ -82,7 +82,7 @@ body {
 }
 
 .skillsSection,
-.contactSection {
+.cvSection {
 	background-color: #fa8231;
 	color: #f5f6fa;
 }
@@ -117,7 +117,7 @@ body {
 	top: 0;
 }
 
-.contactButton {
+.cvButton {
 	color: #f7f7f7;
 	padding: 15px 20px;
 	display: inline-block;
@@ -127,7 +127,7 @@ body {
 	font-size: 16px;
 }
 
-.contactButton:hover {
+.cvButton:hover {
 	text-decoration: none;
 	color: #fa8231;
 	background-color: #f7f7f7;
