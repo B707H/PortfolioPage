@@ -277,6 +277,16 @@ body {
   	list-style: inside;
 }
 
+.copyrightSection {
+	background-color: #1e272e;
+	color: #fff;
+	padding: 10px 5px;
+}
+
+.copyrightSection p {
+	margin: 0;
+}
+
 
 /*mouse below*/
 
