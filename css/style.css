@@ -184,6 +184,7 @@ body {
 }
 
 .items .item {
+	background-color: #f7f7f7;
 	position: relative;
 	display: block;
 	overflow: hidden;
