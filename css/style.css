@@ -148,6 +148,17 @@ body {
 	color: #f7f7f7;
 }
 
+.filter {
+	text-align: center;
+	width: 100%;
+}
+
+.section .heading {
+	text-align: center;
+	padding-bottom: 40px;
+	width: 100%;
+}
+
 /*mouse*/
 
 .scroll-downs {
