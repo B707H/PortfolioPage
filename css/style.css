@@ -207,6 +207,12 @@ body {
 	background-color: #fa8231;
 	position: relative;
 	display: inline-block;
+
+	-webkit-transition: all 0.2s linear, 0.2s;
+	-moz-transition: all 0.2s linear, 0.2s;
+	-o-transition: all 0.2s linear, 0.2s;
+	-ms-transition: all 0.2s linear, 0.2s;
+	-transition: all 0.2s linear, 0.2s;
 }
 
 .items .imageOverlay {
@@ -219,14 +225,35 @@ body {
 	top: 0px;
 	opacity: 0;
 	border-radius: 8px;
+
+	-webkit-transition: all 0.2s linear, 0.8s;
+	-moz-transition: all 0.2s linear, 0.8s;
+	-o-transition: all 0.2s linear, 0.8s;
+	-ms-transition: all 0.2s linear, 0.8s;
+	-transition: all 0.2s linear, 0.8s;
 }
 
 .items .item:hover .imageOverlay {
 	opacity: 1;
 }
 
+.items .openButton {
+	left: -200px;
+}
 
+.items .projectLink {
+	right: -200px;
+}
 
+.items .item:hover .openButton {
+	float: left;
+	left: -5px;
+}
+
+.items .item:hover .projectLink {
+	float: right;
+	right: -5px;
+}
 
 
 
