@@ -184,7 +184,6 @@ body {
 }
 
 .items .item {
-	background-color: #f7f7f7;
 	position: relative;
 	display: block;
 	overflow: hidden;
@@ -288,6 +287,38 @@ body {
 	margin: 0;
 }
 
+#navigation {
+	background-color: #fa8231;
+	border-bottom: 0.5px solid #fff;
+	padding: 10px 30px;
+	z-index: 100;
+	width: 100%;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 3px;
+}
+
+#navigation li {
+	padding: 0 10px;
+}
+
+#navigation li a {
+	color: #fff;
+}
+
+.navbar-brand, .navbar-brand:hover {
+	color: #fff;
+}
+
+.navbar-toggler-icon {
+	background:  url(../img/icons/menu.png);
+	background-size: 100%;
+}
+
+.fixedNav #navigation {
+	position: fixed;
+	top: 0;
+
+}
 
 /*mouse below*/
 
