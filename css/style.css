@@ -39,6 +39,10 @@ body {
 	padding-bottom: 10px;
 }
 
+.slides-pagination a {
+	border-color: #57606f;
+}
+
 .slides-pagination a.current {
 	background-color: #dad1d2;
 }
@@ -69,7 +73,7 @@ body {
 }
 
 .section {
-	padding: 100px 0;
+	padding: 80px 0;
 	background-color:  #f7f7f7;
 }
 
@@ -77,10 +81,10 @@ body {
 	max-width: 100%;
 }
 
-.skillsSection {
+.skillsSection,
+.cvSection {
 	background-color: #fa8231;
-	color: #fff;
-	-webkit-text-stroke: 0.2px black;
+	color: #f5f6fa;
 }
 
 .col-md-7 {
@@ -113,8 +117,227 @@ body {
 	top: 0;
 }
 
+.cvButton {
+	color: #f7f7f7;
+	padding: 15px 20px;
+	display: inline-block;
+	margin-top: 20px;
+	border: 2px solid #f7f7f7;
+	border-radius: 8px;
+	font-size: 16px;
+}
 
-/*mouse*/
+.cvButton:hover {
+	text-decoration: none;
+	color: #fa8231;
+	background-color: #f7f7f7;
+}
+
+.filter a {
+	color: #c8d6e5;
+	border: 1px solid #c8d6e5;
+	padding: 12px 18px;
+	display: block;
+}
+
+.filter li {
+	display: inline-block;
+	padding: 5px;
+
+}
+
+.filter .current {
+	background-color: #e74c3c;
+	border-color: #e74c3c;
+	color: #f7f7f7;
+}
+
+.filter {
+	text-align: center;
+	width: 100%;
+}
+
+.section .heading {
+	text-align: center;
+	padding-bottom: 40px;
+	width: 100%;
+}
+
+.items li {
+	display: inline-block;
+	padding: 5px;
+}
+
+.itemsContainer {
+	width: 100%;
+}
+
+.items li img {
+
+	width: 100%;
+
+	-webkit-transition: all 0.2s linear, 0.6s;
+	-moz-transition: all 0.2s linear, 0.6s;
+	-o-transition: all 0.2s linear, 0.6s;
+	-ms-transition: all 0.2s linear, 0.6s;
+	-transition: all 0.2s linear, 0.6s;
+}
+
+.items .item {
+	position: relative;
+	display: block;
+	overflow: hidden;
+	border-radius: 8px;
+}
+
+.items .icon {
+	position: absolute;
+	width: 90px;
+	height: 40px;
+	left: 50%;
+	top: 50%;
+	margin: -20px auto 0 -47px;
+	text-align: center;
+	z-index: 3;
+}
+
+.items .icon i {
+	color: #f7f7f7;
+	font-size: 20px;
+	margin-top: 9px;
+}
+
+.items a {
+	border-radius: 4px;
+	width: 40px;
+	height: 40px;
+	background-color: #fa8231;
+	position: relative;
+	display: inline-block;
+
+	-webkit-transition: all 0.2s linear, 0.2s;
+	-moz-transition: all 0.2s linear, 0.2s;
+	-o-transition: all 0.2s linear, 0.2s;
+	-ms-transition: all 0.2s linear, 0.2s;
+	-transition: all 0.2s linear, 0.2s;
+}
+
+.items .imageOverlay {
+	width: 100%;
+	height: 100%;
+	margin-top: 0px;
+	background-color: rgba(0, 0, 0, 0.2);
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	opacity: 0;
+	border-radius: 8px;
+
+	-webkit-transition: all 0.2s linear, 0.8s;
+	-moz-transition: all 0.2s linear, 0.8s;
+	-o-transition: all 0.2s linear, 0.8s;
+	-ms-transition: all 0.2s linear, 0.8s;
+	-transition: all 0.2s linear, 0.8s;
+}
+
+.items .item:hover .imageOverlay {
+	opacity: 1;
+}
+
+.items .openButton {
+	left: -200px;
+}
+
+.items .projectLink {
+	right: -200px;
+}
+
+.items .item:hover .openButton {
+	float: left;
+	left: -5px;
+}
+
+.items .item:hover .projectLink {
+	float: right;
+	right: -5px;
+}
+
+.items .item:hover img {
+	-webkit-transform: scale(1.05, 1.05);
+	-moz-transform: scale(1.05, 1.05);
+	-o-transform: scale(1.05, 1.05);
+	-ms-transform: scale(1.05, 1.05);
+	-transform: scale(1.05, 1.05);
+}
+
+.items {
+	padding: 0;
+	margin: 0;
+    text-align: center;
+  	list-style: inside;
+}
+
+.copyrightSection {
+	background-color: #1e272e;
+	color: #fff;
+	padding: 10px 5px;
+}
+
+.copyrightSection p {
+	margin: 0;
+}
+
+#navigation {
+	background-color: #fa8231;
+	border-bottom: 0.5px solid #fff;
+	padding: 10px 30px;
+	z-index: 100;
+	width: 100%;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 3px;
+}
+
+#navigation li {
+	padding: 0 10px;
+}
+
+#navigation li a {
+	color: #fff;
+}
+
+.navbar-brand, .navbar-brand:hover {
+	color: #fff;
+}
+
+.navbar-toggler-icon {
+	background:  url(../img/icons/menu.png);
+	background-size: 100%;
+}
+
+.fixedNav #navigation {
+	position: fixed;
+	top: 0;
+}
+
+.loader {
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 1000;
+	margin: 0;
+}
+
+.loader .inner {
+	width: 100%;
+	height: 100%;
+	background: url(../img/loader.gif) center center no-repeat;
+}
+
+
+/*mouse below*/
 
 .scroll-downs {
   z-index: 6;
