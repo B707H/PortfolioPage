@@ -15,6 +15,17 @@ $(window).on("load", function(){
 
 });
 
+
+$(".category-wrapper").owlCarousel({
+     items : 4,
+     loop  : true,
+     margin : 30,
+     nav    : true,
+     smartSpeed :900,
+     navText : ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"]
+   });
+
+
 $(document).ready(function() {
 
 	$('#slides').superslides({
@@ -24,7 +35,7 @@ $(document).ready(function() {
 
 	var typed = new Typed(".typed", {
 		strings: ["Junior Software Engineer.", "Back-end Developer.", "Lifelong Learner."],
-		typeSpeed: 70,
+		typeSpeed: 120,
 		loop: true,
 		startDelay: 1100,
 		showCursor: false
