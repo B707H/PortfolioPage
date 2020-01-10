@@ -51,7 +51,7 @@ $(document).ready(function() {
 
 	$(function() {
 		if(document.body.scrollTop === 0){
-			$(".scroll-downs").delay(4000).fadeIn();
+			$(".scroll-downs").delay(5000).fadeIn();
 		}
 	});
 
