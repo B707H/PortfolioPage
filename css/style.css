@@ -81,10 +81,13 @@ body {
 	max-width: 100%;
 }
 
-.skillsSection,
+.contactSection,
 .cvSection {
 	background-color: #fa8231;
 	color: #f5f6fa;
+	opacity: 0.9;
+	padding-bottom: 40px;
+	padding-top: 40px;
 }
 
 .col-md-7 {
@@ -98,8 +101,9 @@ body {
 	opacity: 0.93;
 }
 
-.skill {
+.contact {
 	text-align: center;
+	width: 100%;
 }
 
 .chart {
@@ -270,6 +274,11 @@ body {
 	-transform: scale(1.05, 1.05);
 }
 
+.owl-carousel .owl-item img {
+    width: 30%;
+    display: inline-block;
+}
+
 .items {
 	padding: 0;
 	margin: 0;
@@ -336,6 +345,15 @@ body {
 	background: url(../img/loader.gif) center center no-repeat;
 }
 
+.contactImg {
+	height: auto;
+ 	width: auto;
+}
+
+
+.owl-item {
+	width: 180px;
+}
 
 /*mouse below*/
 
