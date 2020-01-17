@@ -192,18 +192,18 @@ body {
 	position: relative;
 	display: block;
 	overflow: hidden;
-	border-radius: 8px;
+	border-radius: 12px;
 }
 
 .items .icon {
 	position: absolute;
-	width: 90px;
-	height: 40px;
-	left: 50%;
-	top: 50%;
-	margin: -20px auto 0 -47px;
-	text-align: center;
-	z-index: 3;
+    width: 140px;
+    height: 55px;
+    left: 40%;
+    top: 50%;
+    margin: -20px auto 0 -47px;
+    text-align: center;
+    z-index: 3;
 }
 
 .items .icon i {
@@ -248,20 +248,22 @@ body {
 	opacity: 1;
 }
 
-.items .openButton {
-	left: -200px;
+.items .sourceCode {
+	float: left;
+	left: -300px;
 }
 
-.items .projectLink {
-	right: -200px;
-}
-
-.items .item:hover .openButton {
+.items .item:hover .sourceCode {
 	float: left;
 	left: -25px;
 }
 
-.items .item:hover .projectLink {
+.items .demoVid {
+	float: right;
+	right: -300px;
+}
+
+.items .item:hover .demoVid {
 	float: right;
 	right: -25px;
 }
