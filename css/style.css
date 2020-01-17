@@ -206,6 +206,45 @@ body {
     z-index: 3;
 }
 
+.items .iconX {
+	position: absolute;
+    width: 70px;
+    height: 55px;
+    left: 60%;
+    top: 50%;
+    margin: -20px auto 0 -47px;
+    text-align: center;
+    z-index: 3;
+}
+
+.items .titleTag {
+	position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 10%;
+    top: 15%;
+    margin: 5% auto 0 15%;
+    text-align: center;
+    z-index: 3;
+    color: #fa8231;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+    -webkit-transition: all 0.2s linear, 0.2s;
+	-moz-transition: all 0.2s linear, 0.2s;
+	-o-transition: all 0.2s linear, 0.2s;
+	-ms-transition: all 0.2s linear, 0.2s;
+	-transition: all 0.2s linear, 0.2s;
+}
+
+.items .titleTag {
+	float: top;
+	top: -200px;
+}
+
+.items .item:hover .titleTag {
+	top: 0px;
+}
+
 .items .icon i {
 	color: #f7f7f7;
 	font-size: 20px;
