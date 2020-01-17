@@ -87,8 +87,13 @@ body {
 	background-color: #fa8231;
 	color: #f5f6fa;
 	opacity: 0.9;
-	padding-bottom: 40px;
-	padding-top: 40px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+.swipeIcon img {
+	height: 40px;
+	width: 40px;
 }
 
 .col-md-7 {
@@ -396,7 +401,10 @@ body {
 	width: 180px;
 }
 
-
+.owl-dots{
+	height: 0;
+	width: 0;
+}
 /*mouse below*/
 
 .scroll-downs {
