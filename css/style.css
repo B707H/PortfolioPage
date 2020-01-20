@@ -148,6 +148,7 @@ body {
 	border: 1px solid #c8d6e5;
 	padding: 12px 18px;
 	display: block;
+	text-decoration: none;
 }
 
 .filter li {
@@ -160,6 +161,7 @@ body {
 	background-color: #e74c3c;
 	border-color: #e74c3c;
 	color: #f7f7f7;
+	text-decoration: none;
 }
 
 .filter {
